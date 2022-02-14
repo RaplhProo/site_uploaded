@@ -31,8 +31,8 @@ function showComments(){
 	let commentField = document.getElementById('comment-field');
 	let out = '';
 	comments.forEach(function(item){
-		out += `<p class="alert alert-primary">${item.name}</p>`;
-		out += `<p class="alert alert-success">${item.body}</p>`;
+		out += `<p class="alert alert-dark">${item.name}</p>`;
+		out += `<p class="alert alert-light">${item.body}</p>`;
 	});
 	commentField.innerHTML = out;
 }
